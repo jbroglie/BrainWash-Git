@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+	<array>
+		<dict>
+			<key>ID</key>
+			<integer>0</integer>
+			<key>Name</key>
+			<string>Stop Picking Nose</string>
+			<key>dateModified</key>
+			<date>2012-02-01T20:11:36Z</date>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>1</integer>
+			<key>Name</key>
+			<string>Cats!</string>
+			<key>dateModified</key>
+			<date>2011-11-11T13:49:25Z</date>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>2</integer>
+			<key>Name</key>
+			<string>Public Speaking</string>
+			<key>dateModified</key>
+			<date>2011-10-09T12:49:33Z</date>
+		</dict>
+	</array>
+</plist>

@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AF7EE014E2E9420013E745 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF7EDF14E2E9420013E745 /* AVFoundation.framework */; };
+		D0AC040E14A4CD3500590B17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AC040D14A4CD3500590B17 /* UIKit.framework */; };
+		D0AC041014A4CD3500590B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AC040F14A4CD3500590B17 /* Foundation.framework */; };
+		D0AC041214A4CD3500590B17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AC041114A4CD3500590B17 /* CoreGraphics.framework */; };
+		D0AC041814A4CD3500590B17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0AC041614A4CD3500590B17 /* InfoPlist.strings */; };
+		D0AC041A14A4CD3500590B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC041914A4CD3500590B17 /* main.m */; };
+		D0AC041E14A4CD3500590B17 /* BrainWashMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC041D14A4CD3500590B17 /* BrainWashMeAppDelegate.m */; };
+		D0AC042414A4CD3500590B17 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC042314A4CD3500590B17 /* RootViewController.m */; };
+		D0AC042714A4CD3500590B17 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AC042514A4CD3500590B17 /* RootViewController.xib */; };
+		D0AC043E14A4D3A200590B17 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC043714A4D3A200590B17 /* InfoViewController.m */; };
+		D0AC043F14A4D3A200590B17 /* TableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC043914A4D3A200590B17 /* TableViewAppDelegate.m */; };
+		D0AC044114A4D3A200590B17 /* PatternAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC043D14A4D3A200590B17 /* PatternAddViewController.m */; };
+		D0AC044514A4D3F100590B17 /* PatternAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AC044214A4D3F100590B17 /* PatternAddView.xib */; };
+		D0AC044614A4D3F100590B17 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AC044314A4D3F100590B17 /* InfoViewController.xib */; };
+		D0AC044914A4D41D00590B17 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0AC044814A4D41D00590B17 /* Data.plist */; };
+		D0AC044B14A4D5D300590B17 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AC044A14A4D5D200590B17 /* MainWindow.xib */; };
+		D0BCCE6614D993B300BE4E50 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCCE6414D993B300BE4E50 /* DetailViewController.m */; };
+		D0BCCE6714D993B300BE4E50 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BCCE6514D993B300BE4E50 /* DetailViewController.xib */; };
+		D0BCCE6914D9ACFB00BE4E50 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0BCCE6814D9ACFB00BE4E50 /* Settings.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20AF7EDF14E2E9420013E745 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0AC040914A4CD3500590B17 /* BrainWashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainWashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AC040D14A4CD3500590B17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0AC040F14A4CD3500590B17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0AC041114A4CD3500590B17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0AC041514A4CD3500590B17 /* BrainWashMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainWashMe-Info.plist"; sourceTree = "<group>"; };
+		D0AC041714A4CD3500590B17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0AC041914A4CD3500590B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0AC041B14A4CD3500590B17 /* BrainWashMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainWashMe-Prefix.pch"; sourceTree = "<group>"; };
+		D0AC041C14A4CD3500590B17 /* BrainWashMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrainWashMeAppDelegate.h; sourceTree = "<group>"; };
+		D0AC041D14A4CD3500590B17 /* BrainWashMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainWashMeAppDelegate.m; sourceTree = "<group>"; };
+		D0AC042214A4CD3500590B17 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RootViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D0AC042314A4CD3500590B17 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D0AC042614A4CD3500590B17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		D0AC043614A4D3A200590B17 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		D0AC043714A4D3A200590B17 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		D0AC043814A4D3A200590B17 /* TableViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAppDelegate.h; sourceTree = "<group>"; };
+		D0AC043914A4D3A200590B17 /* TableViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAppDelegate.m; sourceTree = "<group>"; };
+		D0AC043C14A4D3A200590B17 /* PatternAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PatternAddViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D0AC043D14A4D3A200590B17 /* PatternAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PatternAddViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D0AC044214A4D3F100590B17 /* PatternAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatternAddView.xib; sourceTree = "<group>"; };
+		D0AC044314A4D3F100590B17 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		D0AC044814A4D41D00590B17 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		D0AC044A14A4D5D200590B17 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D0BCCE6314D993B300BE4E50 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D0BCCE6414D993B300BE4E50 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D0BCCE6514D993B300BE4E50 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		D0BCCE6814D9ACFB00BE4E50 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0AC040614A4CD3500590B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AF7EE014E2E9420013E745 /* AVFoundation.framework in Frameworks */,
+				D0AC040E14A4CD3500590B17 /* UIKit.framework in Frameworks */,
+				D0AC041014A4CD3500590B17 /* Foundation.framework in Frameworks */,
+				D0AC041214A4CD3500590B17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0AC03FE14A4CD3500590B17 = {
+			isa = PBXGroup;
+			children = (
+				D0AC043514A4D2CB00590B17 /* Resources */,
+				D0AC041414A4CD3500590B17 /* Supporting Files */,
+				D0AC041314A4CD3500590B17 /* Classes */,
+				D0AC040C14A4CD3500590B17 /* Frameworks */,
+				D0AC040A14A4CD3500590B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0AC040A14A4CD3500590B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC040914A4CD3500590B17 /* BrainWashMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0AC040C14A4CD3500590B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AF7EDF14E2E9420013E745 /* AVFoundation.framework */,
+				D0AC040D14A4CD3500590B17 /* UIKit.framework */,
+				D0AC040F14A4CD3500590B17 /* Foundation.framework */,
+				D0AC041114A4CD3500590B17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AC041314A4CD3500590B17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCCE6314D993B300BE4E50 /* DetailViewController.h */,
+				D0BCCE6414D993B300BE4E50 /* DetailViewController.m */,
+				D0AC043614A4D3A200590B17 /* InfoViewController.h */,
+				D0AC043714A4D3A200590B17 /* InfoViewController.m */,
+				D0AC043814A4D3A200590B17 /* TableViewAppDelegate.h */,
+				D0AC043914A4D3A200590B17 /* TableViewAppDelegate.m */,
+				D0AC043C14A4D3A200590B17 /* PatternAddViewController.h */,
+				D0AC043D14A4D3A200590B17 /* PatternAddViewController.m */,
+				D0AC042214A4CD3500590B17 /* RootViewController.h */,
+				D0AC042314A4CD3500590B17 /* RootViewController.m */,
+				D0AC041C14A4CD3500590B17 /* BrainWashMeAppDelegate.h */,
+				D0AC041D14A4CD3500590B17 /* BrainWashMeAppDelegate.m */,
+			);
+			name = Classes;
+			path = BrainWashMe;
+			sourceTree = "<group>";
+		};
+		D0AC041414A4CD3500590B17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC041514A4CD3500590B17 /* BrainWashMe-Info.plist */,
+				D0AC041614A4CD3500590B17 /* InfoPlist.strings */,
+				D0AC041914A4CD3500590B17 /* main.m */,
+				D0AC041B14A4CD3500590B17 /* BrainWashMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = BrainWashMe;
+			sourceTree = "<group>";
+		};
+		D0AC043514A4D2CB00590B17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC044814A4D41D00590B17 /* Data.plist */,
+				D0BCCE6814D9ACFB00BE4E50 /* Settings.plist */,
+				D0AC044214A4D3F100590B17 /* PatternAddView.xib */,
+				D0BCCE6514D993B300BE4E50 /* DetailViewController.xib */,
+				D0AC044314A4D3F100590B17 /* InfoViewController.xib */,
+				D0AC044A14A4D5D200590B17 /* MainWindow.xib */,
+				D0AC042514A4CD3500590B17 /* RootViewController.xib */,
+			);
+			name = Resources;
+			path = BrainWashMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0AC040814A4CD3500590B17 /* BrainWashMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AC042A14A4CD3500590B17 /* Build configuration list for PBXNativeTarget "BrainWashMe" */;
+			buildPhases = (
+				D0AC040514A4CD3500590B17 /* Sources */,
+				D0AC040614A4CD3500590B17 /* Frameworks */,
+				D0AC040714A4CD3500590B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainWashMe;
+			productName = BrainWashMe;
+			productReference = D0AC040914A4CD3500590B17 /* BrainWashMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0AC040014A4CD3500590B17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D0AC040314A4CD3500590B17 /* Build configuration list for PBXProject "BrainWashMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0AC03FE14A4CD3500590B17;
+			productRefGroup = D0AC040A14A4CD3500590B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0AC040814A4CD3500590B17 /* BrainWashMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0AC040714A4CD3500590B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AC041814A4CD3500590B17 /* InfoPlist.strings in Resources */,
+				D0AC042714A4CD3500590B17 /* RootViewController.xib in Resources */,
+				D0AC044514A4D3F100590B17 /* PatternAddView.xib in Resources */,
+				D0AC044614A4D3F100590B17 /* InfoViewController.xib in Resources */,
+				D0AC044914A4D41D00590B17 /* Data.plist in Resources */,
+				D0AC044B14A4D5D300590B17 /* MainWindow.xib in Resources */,
+				D0BCCE6714D993B300BE4E50 /* DetailViewController.xib in Resources */,
+				D0BCCE6914D9ACFB00BE4E50 /* Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0AC040514A4CD3500590B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AC041A14A4CD3500590B17 /* main.m in Sources */,
+				D0AC041E14A4CD3500590B17 /* BrainWashMeAppDelegate.m in Sources */,
+				D0AC042414A4CD3500590B17 /* RootViewController.m in Sources */,
+				D0AC043E14A4D3A200590B17 /* InfoViewController.m in Sources */,
+				D0AC043F14A4D3A200590B17 /* TableViewAppDelegate.m in Sources */,
+				D0AC044114A4D3A200590B17 /* PatternAddViewController.m in Sources */,
+				D0BCCE6614D993B300BE4E50 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0AC041614A4CD3500590B17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0AC041714A4CD3500590B17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0AC042514A4CD3500590B17 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0AC042614A4CD3500590B17 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0AC042814A4CD3500590B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0AC042914A4CD3500590B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0AC042B14A4CD3500590B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainWashMe/BrainWashMe-Prefix.pch";
+				INFOPLIST_FILE = "BrainWashMe/BrainWashMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0AC042C14A4CD3500590B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainWashMe/BrainWashMe-Prefix.pch";
+				INFOPLIST_FILE = "BrainWashMe/BrainWashMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0AC040314A4CD3500590B17 /* Build configuration list for PBXProject "BrainWashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AC042814A4CD3500590B17 /* Debug */,
+				D0AC042914A4CD3500590B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AC042A14A4CD3500590B17 /* Build configuration list for PBXNativeTarget "BrainWashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AC042B14A4CD3500590B17 /* Debug */,
+				D0AC042C14A4CD3500590B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0AC040014A4CD3500590B17 /* Project object */;
+}
